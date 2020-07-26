@@ -92,7 +92,7 @@ h1 {
 	padding: 20px 0;
 }
 
-.columns h2:first-child {
+.columns h2 {
 	padding-bottom: 20px;
 }
 
@@ -159,9 +159,21 @@ footer h2 {
 	padding: 25px 0;
 }
 
-#btt {
+/* #btt {
 	display: none;
+} */
+
+#btt {
+	display: block;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	background-color: rgba(145, 243, 243, 0.8);
+	padding: 2px;
+	font-size: .75em;
+	color: dimgrey;
 }
+
 /* General Purpose Clearfix */
 
 .group:after {
@@ -209,7 +221,7 @@ footer h2 {
 
 	/* Portfolio Styling */
 
-	#portfolio h2:first-child {
+	#portfolio h2 {
 		font-size: 2em;
 	}
 
@@ -245,6 +257,10 @@ footer h2 {
 		padding-bottom: 15px;
 	}
 
+	#contact h2 {
+		font-size: 2em;
+	}
+
 	/* Footer Styling */
 
 	footer {
@@ -254,31 +270,24 @@ footer h2 {
 	footer h2 {
 		margin: 0;
 		font-size: 1rem;
-		font-weight: normal;
+		font-weight: 700;
 		float: left;
 		padding: 25px 0;
 	}
 
 	.bottom-nav {
 		display: block;
+		float: right;
 		width: 50%;
+		height: 90px;
 		margin: auto;
 		padding-top: 10px;
+		/* padding-bottom: 30px; */
 	}
 
 	.bottom-nav li {
 		float: left;
-		padding-left: 25px;
-	}
-
-	#btt {
-		display: block;
-		position: fixed;
-		bottom: 5px;
-		right: 5px;
-		background-color: rgba(145, 243, 243, 0.8);
-		padding: 2px;
-		color: dimgrey;
+		padding-left: 37px;
 	}
 }
 
@@ -334,6 +343,6 @@ footer h2 {
 		display: inline-block;
 		margin: auto;
 		float: none;
-		padding: 0 15px 0 15px;
+		padding: 0 0 0 62px;
 	}
 }
